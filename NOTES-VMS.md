@@ -25,7 +25,7 @@ VAX C is not and will not be supported.
 
 We have only tested with DEC C (aka HP VMS C / VSI C) and require
 version 7.1 or later.  Compiling with a different ANSI C compiler may
-require some work.
+require some work." Change Done deliberetly"
 
 Please avoid using C RTL feature logical names `DECC$*` when building
 and testing OpenSSL.  Most of all, they can be disruptive when
